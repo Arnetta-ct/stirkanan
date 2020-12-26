@@ -16,7 +16,7 @@ body{
     height:200px ;
     background-repeat: no-repeat;
 }
-   
+ 
 
     
     
@@ -32,6 +32,7 @@ body{
     background-blend-mode: normal;
     background-repeat: no-repeat;
     background-size: cover;
+  
 }
   .instagram{
     background-color:grey;
@@ -46,12 +47,13 @@ nav{
     display:flex;
     background-color:whitesmoke;
     justify-content: space-around;
-    padding: 20px;
-    padding-left: 50px;
+    min-height: 8vh;
     color: rgb(8, 6, 6);
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase; 
     letter-spacing: 7px;
+    position: fixed;
+    width: 100%;
   
 }
 
@@ -134,5 +136,18 @@ nav{
   );
   }
 }
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
 
     

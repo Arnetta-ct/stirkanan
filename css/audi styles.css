@@ -15,11 +15,9 @@ body{
 }
 
 .column{
-	 h1{
-		 font
-	 }
 	width: 600px;
-	padding:13vh;
+	padding:9vh;
+
 }
 
 #featured{
@@ -41,7 +39,7 @@ body{
 	cursor: pointer;
 	opacity: 0.5;
 	margin: 5px;
-	border: 2px solid black;
+	border: 2px solid rgb(39, 37, 37);
 
 }
 

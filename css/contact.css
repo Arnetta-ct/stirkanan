@@ -1,0 +1,19 @@
+
+body{
+
+}
+h1{
+    font-family:  'Josefin Sans', sans-serif;;
+    justify-content: center;
+    display: block ;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    justify-content: flex-end;
+    padding: 25px;
+  }
